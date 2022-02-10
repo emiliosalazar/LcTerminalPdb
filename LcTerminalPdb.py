@@ -1,3 +1,9 @@
+"""
+LcTerminalPdb is a TerminalPdb class modification to better handle list
+comprehensions when one lands in the debugger from a breakpoint
+
+See README for info on how to use in code
+"""
 import sys
 import traceback
 from IPython.terminal.debugger import TerminalPdb

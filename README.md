@@ -1,5 +1,6 @@
 # LcTerminalPdb
-TerminalPdb class modification to better handle list comprehensions at breakpoints
+LcTerminalPdb is a TerminalPdb class modification to better handle list
+comprehensions when one lands in the debugger from a breakpoint
 
 Problem:
 LcTerminalPdb updates the default() method from TerminalPdb (which uses Pdb's
